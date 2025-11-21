@@ -1,0 +1,69 @@
+<!-- Domantas Matas, EEF-24-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Domantas Matas</h1>
+        <h5>Elektros energetikos inžinerija</h5>
+        <p><u>Elektros inžinerija yra labai svarbi šiandieniniame pasaulyje, nes elektra yra pagrindinis šaltinis mūsų naudojamų prietaisų...</u></p>
+        <!-- 
+        <u> žyma pabraukia tekstą vizualiai.
+        Tačiau tai gali būti klaidinanti, nes naršyklė ir vartotojai paprastai asociuoja pabrauktą tekstą su nuoroda (<a href="...">).
+        Todėl pabraukti tekstą naudojant <u> gali suklaidinti, kad tai yra spustelima nuoroda, nors iš tikrųjų tai tik formatavimas.
+        Dėl semantikos ir prieinamumo dažniausiai rekomenduojama naudoti CSS: text-decoration: underline; vietoje <u> žymos.
+        -->
+
+        <p>Nuoroda:</p>
+        <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML puslapis</a>
+
+        </p>
+        <p>Svajonių darbas:</p>
+
+        <img src="paveikslai/download.jpg" alt="Inžinierius dirbantis su modernia elektra" width="500">
+        </p>
+       <!-- Numeruotas sąrašas -->
+        <h3>Dominančios IT / elektronikos sritys:</h3>
+        <ol>
+        <li><em><strong>Dirbtinis intelektas (AI)</strong></em></li> <!-- <strong> – semantiškai svarbus tekstas, paryškinamas. Tai reiškia, kad šis elementas turi didesnę reikšmę. -->
+        <li><i><b>lektronikos schemų projektavimas</b></i></li> <!-- <b> – tiesiog vizualiai paryškina tekstą, neteikia jokios semantinės reikšmės. -->
+        <li>Robotika ir automatika</li>
+        </ol>
+    </div>
+
+    <!-- Nenumeruotas sąrašas -->
+    <h3>Įgūdžiai / technologijos, kurias noriu išmokti studijų metu:</h3>
+    <ul>
+        <li><em>Python programavimas</em></li> <!-- <em> – semantiškai pabrėžia tekstą, reiškia, kad šis tekstas yra svarbus ar išskirtinis. Naršyklės dažniausiai atvaizduoja pasviruoju šriftu. -->
+        <li><i>PCB projektavimas</i></li> <!-- <i> – tiesiog pasviras tekstas vizualiai, bet neturi semantinės reikšmės. -->
+        <li>Arduino / mikrovaldikliai</li>
+    </ul>
+
+</body>
+</html>
+
+<!-- 
+PASKIRTYS:
+
+<!DOCTYPE html>  – nurodo naršyklei, kad dokumentas yra HTML5 tipo. 
+<html>          – žymi viso HTML dokumento pradžią ir pabaigą.
+<head>          – talpina informaciją apie dokumentą (metaduomenis), nematomą vartotojui.
+<meta>          – aprašo papildomą informaciją (pvz., koduotę, kalbą, autorių) naršyklei ir paieškos sistemoms.
+<title>         – nustato puslapio pavadinimą, rodomą naršyklės skirtuko viršuje.
+<body>          – žymi visą matomą puslapio turinį (tekstus, paveikslėlius, nuorodas ir t.t.).
+-->
+
+<!-- Paskirtis komentaras -->
+<!-- 
+DIV KONTEINERIS:
+<div> naudojamas sugrupuoti kelis HTML elementus į vieną logišką bloką.
+    Tai leidžia:
+    1. Lengviau valdyti turinį ir tvarkyti struktūrą.
+    2. Taikyti CSS stilius visam blokui vienu metu.
+    3. Užtikrinti semantinę ir vizualinę atskirtį nuo kitų puslapio dalių.
+Šiame pavyzdyje, pastraipos, nuoroda ir paveikslėlis yra sugrupuoti į vieną konteinerį.
+-->

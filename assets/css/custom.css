@@ -1,0 +1,142 @@
+body {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Headings styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 1.2em 0 0.5em;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #1a3d7c;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.3rem;
+  color: red;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.9rem;
+  color: red;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.6rem;
+  color: #3b7dcc;
+  line-height: 1.35;
+}
+
+h5 {
+  font-size: 1.3rem;
+  color: #4d91dd;
+  line-height: 1.4;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: #5fa5ee;
+  line-height: 1.45;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1rem;
+  margin-bottom: 1em;
+  letter-spacing: 0.2px;
+  color: #333;
+}
+
+button {
+  background-color: purple !important;
+  color: rgb(201, 157, 37);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Užvedus pelę */
+button:hover {
+  background-color: #70e86c;
+}
+
+/* Paspaudus */
+button:active {
+  background-color: #7ac4b7;
+  transform: scale(0.97);
+}
+
+/* Nuorodos */
+a {
+     background-color: green !important;
+  color: #c02c9b !important;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+/* Nuorodos užvedimas */
+a:hover {
+  color: #44dd7f;
+  text-decoration: underline;
+}
+.section {
+  padding: 40px 0;      /* Tarpas viršuje ir apačioje */
+  margin: 0 auto;       /* Centravimas */
+}
+
+.section > * {
+  margin-bottom: 20px;  /* Vienodi tarpai tarp elementų sekcijoje */
+}
+
+.section > *:last-child {
+  margin-bottom: 0;     /* Paskutinis elementas be papildomo tarpo */
+}
+
+.section.resume > * {
+    
+    margin-bottom: -40px;  /* sumažintas tarpas tarp elementų */
+}
+
+.section.about > * {
+  margin-bottom: -30px;  /* sumažintas tarpas tarp elementų */
+}
+
+.section.porfolio > * {
+  margin-bottom: -30px;  /* sumažintas tarpas tarp elementų */
+}
+.section {
+padding: 40px 0;
+margin: 0 auto;
+}
+
+
+.section > * {
+margin-bottom: 20px; /* Vienodi tarpai tarp elementų sekcijoje */
+padding: 15px; /* Pavyzdinis vidinis tarpas turinio blokams */
+border: 1px solid #ccc; /* Kraštinės */
+border-radius: 8px; /* Užapvalinti kampai */
+box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Šešėlis */
+}
+
+
+.section > *:last-child {
+margin-bottom: 0; /* Paskutinis elementas be papildomo tarpo */
+}
+
+
+/* Resume sekcijoje tarpai mažesni */
+.section.resume > * {
+margin-bottom: 10px;
+}
+
